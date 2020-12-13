@@ -11,6 +11,9 @@ solution_list = []
 scrambled_list = []
 actual_array = None
 
+CORS(app, resources={ r'/*': {'origins': origins}}, supports_credentials=True)
+app.config['CORS_HEADERS'] = 'Content-Type'
+
 def show_list_on_string(lst):
     result_string = ""
     for item in lst:
