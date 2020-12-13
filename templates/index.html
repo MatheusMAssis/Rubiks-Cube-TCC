@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rubik's Cube</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="rubik-box">
+            <div class="rubik-cube">
+                <div class="cubeTop">
+                    <div class="field1 {{ c1 }}"><span></span></div>
+                    <div class="field2 {{ c2 }}"><span></span></div>
+                    <div class="field3 {{ c3 }}"><span></span></div>    
+                    <div class="field4 {{ c4 }}"><span></span></div>
+                    <div class="field5 {{ c5 }}"><span></span></div>
+                    <div class="field6 {{ c6 }}"><span></span></div>
+                    <div class="field7 {{ c7 }}"><span></span></div>
+                    <div class="field8 {{ c8 }}"><span></span></div>
+                    <div class="field9 {{ c9 }}"><span></span></div>
+                </div>
+
+                <div class="cubeLeft">
+                    <div class="field10 {{ c10 }}"><span></span></div>
+                    <div class="field11 {{ c11 }}"><span></span></div>
+                    <div class="field12 {{ c12 }}"><span></span></div>
+                    <div class="field13 {{ c13 }}"><span></span></div>
+                    <div class="field14 {{ c14 }}"><span></span></div>
+                    <div class="field15 {{ c15 }}"><span></span></div>
+                    <div class="field16 {{ c16 }}"><span></span></div>
+                    <div class="field17 {{ c17 }}"><span></span></div>
+                    <div class="field18 {{ c18 }}"><span></span></div>
+                </div>
+
+                <div class="cubeFront">
+                    <div class="field19 {{ c19 }}"><span></span></div>
+                    <div class="field20 {{ c20 }}"><span></span></div>
+                    <div class="field21 {{ c21 }}"><span></span></div>
+                    <div class="field22 {{ c22 }}"><span></span></div>
+                    <div class="field23 {{ c23 }}"><span></span></div>
+                    <div class="field24 {{ c24 }}"><span></span></div>
+                    <div class="field25 {{ c25 }}"><span></span></div>
+                    <div class="field26 {{ c26 }}"><span></span></div>
+                    <div class="field27 {{ c27 }}"><span></span></div>
+                </div>
+
+                <div class="cubeRight">
+                    <div class="field28 {{ c28 }}"><span></span></div>
+                    <div class="field29 {{ c29 }}"><span></span></div>
+                    <div class="field30 {{ c30 }}"><span></span></div>
+                    <div class="field31 {{ c31 }}"><span></span></div>
+                    <div class="field32 {{ c32 }}"><span></span></div>
+                    <div class="field33 {{ c33 }}"><span></span></div>
+                    <div class="field34 {{ c34 }}"><span></span></div>
+                    <div class="field35 {{ c35 }}"><span></span></div>
+                    <div class="field36 {{ c36 }}"><span></span></div>    
+                </div>
+
+                <div class="cubeBack">
+                    <div class="field37 {{ c37 }}"><span></span></div>
+                    <div class="field38 {{ c38 }}"><span></span></div>
+                    <div class="field39 {{ c39 }}"><span></span></div>
+                    <div class="field40 {{ c40 }}"><span></span></div>
+                    <div class="field41 {{ c41 }}"><span></span></div>
+                    <div class="field42 {{ c42 }}"><span></span></div>
+                    <div class="field43 {{ c43 }}"><span></span></div>
+                    <div class="field44 {{ c44 }}"><span></span></div>
+                    <div class="field45 {{ c45 }}"><span></span></div>    
+                </div>
+
+                <div class="cubeBottom">
+                    <div class="field46 {{ c46 }}"><span></span></div>
+                    <div class="field47 {{ c47 }}"><span></span></div>
+                    <div class="field48 {{ c48 }}"><span></span></div>
+                    <div class="field49 {{ c49 }}"><span></span></div>
+                    <div class="field50 {{ c50 }}"><span></span></div>
+                    <div class="field51 {{ c51 }}"><span></span></div>
+                    <div class="field52 {{ c52 }}"><span></span></div>
+                    <div class="field53 {{ c53 }}"><span></span></div>
+                    <div class="field54 {{ c54 }}"><span></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="buttons-box">
+            <a href="/scrambled">
+                <button class="scramble-button">
+                    Embaralhar
+                </button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

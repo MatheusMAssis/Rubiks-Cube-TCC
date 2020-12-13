@@ -1,0 +1,190 @@
+body {
+    position:relative;
+    background:#f6f6f6;
+}
+
+.color1{    background-color: #FFFFFF;  }   
+.color2{    background-color: #00A75D;  }   
+.color3{    background-color: #B60101;  }
+.color4{    background-color: #213DFD;  }
+.color5{    background-color: #FF6907;  }   
+.color6{    background-color: #FFD500;  }
+
+.cubeTop {
+    width:196px;
+    height:200px;
+    border:3px solid black;
+    border-right:4px solid black;
+    transform: scaleY(0.59) rotate(45deg);
+    position:absolute;
+    top:42.5px;
+    left:211px;
+}
+
+.field1, .field2, .field3, .field4, .field5, .field6, .field7, .field8, .field9 {
+    height:63px;
+    width:61.33px;
+    border:black 2px solid;
+    float:left;
+}
+
+.cubeLeft {
+    width:162px;
+    height:162px;
+    border:2px solid black;
+    transform: rotate(-30deg) skew(-30deg);
+    position:absolute;
+    top: 100px;
+    left: 0px;
+}
+
+.field10, .field11, .field12, .field13, .field14, .field15, .field16, .field17, .field18 {
+    height:50px;
+    width:50px;
+    border:black 2px solid;
+    float:left;
+}
+
+
+.cubeFront {
+    width:162px;
+    height:162px;
+    border:2px solid black;
+    transform: rotate(30deg) skew(30deg);
+    position:absolute;
+    top: 200px;
+    left:157px;
+}
+
+.field19, .field20, .field21, .field22, .field23, .field24, .field25, .field26, .field27 {
+    height:50px;
+    width:50px;
+    border:black 2px solid;
+    float:left;
+}
+
+.cubeRight {
+    width:162px;
+    height:162px;
+    border:2px solid black;
+    transform: rotate(-30deg) skew(-30deg);
+    position:absolute;
+    top: 200px;
+    left:300px;
+}
+
+.field28, .field29, .field30, .field31, .field32, .field33, .field34, .field35, .field36 {
+    height:50px;
+    width:50px;
+    border:black 2px solid;
+    float:left;
+}
+
+
+.cubeBack {
+    width:162px;
+    height:162px;
+    border:2px solid black;
+    transform: rotate(30deg) skew(30deg);
+    position:absolute;
+    top: 100px;
+    left:457px;
+}
+
+.field37, .field38, .field39, .field40, .field41, .field42, .field43, .field44, .field45 {
+    height:50px;
+    width:50px;
+    border:black 2px solid;
+    float:left;
+}
+
+.cubeBottom {
+    width:196px;
+    height:200px;
+    border:3px solid black;
+    border-right:4px solid black;
+    transform: scaleY(0.59) rotate(45deg);
+    position:absolute;
+    top:410px;
+    left:211px;
+}
+
+.field46, .field47, .field48, .field49, .field50, .field51, .field52, .field53, .field54 {
+    height:63px;
+    width:61.33px;
+    border:black 2px solid;
+    float:left;
+}
+
+.buttons-box {
+    height: 615px;
+}
+
+.buttons-box {
+    width: 615px;
+}
+
+.buttons-box button {
+    width: 305px;
+    height: 35px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.buttons-box .scramble-button {
+    background-color: #9d4edd;
+    border-radius: 0.15em;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white;
+    box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
+    text-align: center;
+    position: relative;
+}
+
+.buttons-box .solve-button {
+    background-color: #5a189a;
+    border-radius: 0.15em;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white;
+    box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
+    text-align: center;
+    position: relative;
+}
+
+.list-boxes {
+    width: 610px;
+    align-items: center;
+}
+
+.scramble-box, .solution-box {
+    background-color: #7a2cbfb6;
+    border-radius: 0.15em;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white;
+    box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
+    text-align: center;
+    position: relative;
+    
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    text-align: center;
+}
+
+.scramble-box div, .solution-box div {
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: none;
+}
